@@ -1,0 +1,23 @@
+{
+  "name": "lib",
+  "authors": [
+    "Callan Morrison <callan.l.morrison@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "jquery": "^3.1.0",
+    "materialize": "^0.97.7"
+  }
+}
