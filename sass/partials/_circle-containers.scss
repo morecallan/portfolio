@@ -1,0 +1,49 @@
+@import "../mix/circular-placement";
+@import "../components/colors";
+
+
+.circle-container-right{
+  margin-left: -130px !important;
+
+  @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 6em, $rotation: 270);
+  margin: 5em auto 0;
+  border: solid 4px $navy-light;
+
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    border: solid 4px $navy-light;
+    transition: .15s;
+
+    &:hover,
+    &:active {
+      filter: grayscale(0);
+    }
+  }
+}
+
+.circle-container-left{
+  margin-left: 260px !important;
+  margin-right: -130px !important;
+
+
+  @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 6em, $rotation: 90);
+  margin: 5em auto 0;
+  border: solid 4px $navy-light;
+
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    border: solid 4px $navy-light;
+    transition: .15s;
+
+    &:hover,
+    &:active {
+      filter: grayscale(0);
+    }
+  }
+}
