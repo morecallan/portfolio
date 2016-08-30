@@ -1,0 +1,7 @@
+.textshadow {
+  text-shadow: 5px 5px 5px $charcoal;
+}
+
+.boxshadow-png {
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(68, 72, 77, 0.5));
+}
