@@ -3,9 +3,9 @@
 
 
 .circle-container-right{
-  margin-left: -130px !important;
+  margin-left: -100px !important;
 
-  @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 6em, $rotation: 270);
+  @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 8em, $rotation: 270);
   margin: 5em auto 0;
   border: solid 4px $navy-light;
 
@@ -16,6 +16,8 @@
     filter: grayscale(100%);
     border: solid 4px $navy-light;
     transition: .15s;
+    box-shadow: 5px 5px 5px $charcoal-light;
+
 
     &:hover,
     &:active {
@@ -25,11 +27,10 @@
 }
 
 .circle-container-left{
-  margin-left: 260px !important;
-  margin-right: -130px !important;
+  margin-right: -100px !important;
 
 
-  @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 6em, $rotation: 90);
+  @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 8em, $rotation: 90);
   margin: 5em auto 0;
   border: solid 4px $navy-light;
 
@@ -40,6 +41,7 @@
     filter: grayscale(100%);
     border: solid 4px $navy-light;
     transition: .15s;
+    box-shadow: 5px 5px 5px $charcoal-light;
 
     &:hover,
     &:active {
