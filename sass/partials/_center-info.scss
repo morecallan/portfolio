@@ -2,9 +2,9 @@
 
 .center-info {
   margin: 5% auto;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   width: 35%;
-  min-height: 30%;
+  min-height: 10%;
   border-radius: 10px;
   text-align: center;
   background-color: $purple;
@@ -13,5 +13,11 @@
 
   h5 {
     letter-spacing: .5em;
+  }
+
+  i {
+    line-height: .5em;
+    padding: 0 !important;
+    margin-bottom: -10px !important;
   }
 }

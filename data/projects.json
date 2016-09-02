@@ -1,0 +1,22 @@
+{
+  "frontend": {
+    "capstone": {
+      "title": "Boogie And Brush",
+      "thumbnail": "",
+      "brief": "",
+      "url": "https://boogie-and-brush.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": [],
+    },
+    "battledome": {
+      "title": "Robot Battledome",
+      "thumbnail": "",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": [],
+    }
+  }
+}
