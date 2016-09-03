@@ -107,6 +107,9 @@
 #nav .icon > * {
   max-width: 40px;
   max-height: 40px; }
+  #nav .icon > * img {
+    max-width: 40px;
+    max-height: 40px; }
 
 nav {
   margin: 10px 0 !important;

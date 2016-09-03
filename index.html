@@ -10,49 +10,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css" media="screen">
   </head>
-  <body>
-    <nav class="row">
-      <div class="nav-img-main">
-        <img src="./img/personal-img/placeholder.jpg"/>
-      </div>
+  <body ng-app="Portfolio">
+    <div ng-include="'./partials/nav.html'"></div>
 
-      <div class="sub-nav upper">
-        <h3> CALLAN MORRISON </h3>
-      </div>
+    <div ng-view></div>
 
-      <div class="sub-nav lower"
-       <ul id="nav">
-         <li class="icon"><img class="boxshadow-png" src="./img/resume-icons/linkedin.png"/></li>
-         <li class="icon"><img class="boxshadow-png" src="./img/resume-icons/codepen.png"/></li>
-         <li class="icon"><img class="boxshadow-png" src="./img/resume-icons/github.svg"/></li>
-         <li class="icon"><img class="boxshadow-png" src="./img/resume-icons/contact.png"/></li>
-         <li class="icon"><img class="boxshadow-png" src="./img/resume-icons/resume.png"/></li>
-       </ul>
-     </div>
-    </nav>
-
-    <div class="main-content">
-      <ul class='circle-container-right'>
-        <li><img src='./img/placeholder.jpg'/></li>
-        <li><img src='./img/placeholder.jpg'/></li>
-        <li><img src='./img/placeholder.jpg'/></li>
-        <li><img src='./img/placeholder.jpg'/></li>
-      </ul>
-
-      <div class='center-info'>
-        <h5>LOREM</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
-        <i class="material-icons medium boxshadow-png">keyboard_arrow_down</i>
-      </div>
-
-      <ul class='circle-container-left'>
-        <li><img src='./img/placeholder.jpg'/></li>
-        <li><img src='./img/placeholder.jpg'/></li>
-        <li><img src='./img/placeholder.jpg'/></li>
-        <li><img src='./img/placeholder.jpg'/></li>
-      </ul>
-    </div>
 
     <div class="row">
       <div class="col s2">
@@ -91,6 +53,29 @@
         </iframe>
       </div>
     </div>
+
+
+    <!-- Materialize: jQuery (necessary for Materialize's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+    <!-- Angular: Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+    <!-- Angular Route: Latest compiled and minified JavaScript -->
+    <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+    <!-- Angular Animations -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.11/angular-animate.js"></script>
+    <!-- Firebase: Latest compiled and minified JavaScript -->
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <!-- Materialize: Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <!-- APP -->
+    <script type="text/javascript" src="app/app.js"></script>
+    <!-- FACTORIES -->
+
+    <!-- DIRECTIVES -->
+    <script type="text/javascript" src="app/controllers/splash.ctrl.js"></script>
+    <script type="text/javascript" src="app/controllers/project.ctrl.js"></script>
+
+    <!-- CONTROLLERS LAST -->
 
   </body>
 </html>
