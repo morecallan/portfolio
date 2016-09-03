@@ -7,10 +7,9 @@ nav {
   background-color: $navy-light-very;
 
   .nav-img-main {
-    border: 5px solid $navy-light;
     max-width: 120px;
     max-height: 120px;
-    border-radius: 5px;
+    opacity: 0.8;
     overflow: hidden;
     float: left;
     margin: 0 3%;

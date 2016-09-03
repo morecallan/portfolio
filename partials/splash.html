@@ -1,28 +1,39 @@
-<div class="main-content">
-  <ul class='circle-container-right'>
-    <li ng-repeat="project in frontendProjects" ng-click="displayProjectDetails(project)">
-      <img ng-src={{project.thumbnail}}/>
-    </li>
-  </ul>
+<div class="row">
 
-
-    <div class="projectInfo center-info" ng-if="projectSelected">
-      <h5>{{selectedProject.title.toUpperCase()}}</h5>
-      <p>{{selectedProject.description}}</p>
-      <a ng-href="#/project/{{selectedProject.key}}"><i class="material-icons medium boxshadow-png">keyboard_arrow_down</i></a>
-    </div>
-
-    <div class="callanInfo center-info" ng-if="!projectSelected">
-      <h5>ABOUT CALLAN</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
-    </div>
-
-
-  <div class="main-content">
-    <ul class='circle-container-left'>
-      <li ng-repeat="project in backendProjects" ng-click="displayProjectDetails(project)">
-        <img ng-src={{project.thumbnail}}/>
-      </li>
+  <div class="col s4">
+    <div class="main-content">
+      <ul class='circle-container-right'>
+        <li ng-repeat="project in frontendProjects" ng-click="displayProjectDetails(project)">
+          <img ng-src={{project.thumbnail}}/>
+        </li>
+      </div>
     </ul>
+  </div>
+
+      <div class="col s4">
+        <div class="projectInfo center-info" ng-if="projectSelected">
+          <h5>{{selectedProject.title.toUpperCase()}}</h5>
+          <p>{{selectedProject.description}}</p>
+          <a ng-href="#/project/{{selectedProject.key}}"><i class="material-icons medium textshadow">keyboard_arrow_down</i></a>
+        </div>
+
+        <div class="callanInfo center-info" ng-if="!projectSelected">
+          <h5>ABOUT CALLAN</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
+        </div>
+      </div>
+
+
+
+      <div class="col s4">
+        <div class="main-content">
+          <ul class='circle-container-left'>
+            <li ng-repeat="project in backendProjects" ng-click="displayProjectDetails(project)">
+              <img ng-src={{project.thumbnail}}/>
+            </li>
+          </div>
+        </ul>
+      </div>
+
 </div>

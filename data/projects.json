@@ -17,8 +17,8 @@
       "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
-      "github": "",
-      "description": "",
+      "github": "https://github.com/morecallan/modern-js-quiz-morecallan",
+      "description": "Originally created as a ‘Mastery Exercise’ for the Nashville Software School ‘Modern Javascript Developer’ Milestone, the Robot Battledome took on a life of it’s own.\nAdmittedly, I started with the UX (don’t tell my instructor). I wanted the player creation to be part of the real gameplay and for there to be a few laughs along the way.\n Under the hood, this project employs Browserify, jQuery, Prototypal Inheritance (born out of JSON files), and many more fun technologies.\nGo ahead. See what the Battledome holds for you…",
       "iframeDimensions": {
         "width": 1200,
         "height": 650
