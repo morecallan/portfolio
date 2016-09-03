@@ -11,16 +11,40 @@ app.factory('projectFactory', function ($q, $http) {
             .success(function(returnObject){
               Object.keys(returnObject).forEach((key) => {
                 Object.keys(returnObject[key]).forEach((subkey) => {
-                  console.log(returnObject[key][subkey])
+                  returnObject[key][subkey].projectType = key;
+                  returnObject[key][subkey].key = subkey;
+                  projects.push(returnObject[key][subkey])
                 })
               })
                 resolve(projects);
             })
             .error(function(error){
-                console.log(error);
                 reject(error);
             })
         });
     };
-  return {getAllProjectDetails: getAllProjectDetails};
+
+    //Returns only a specific project with details.
+      const getSpecificProjectDetails = (projectTitle) => {
+        let projectToSend = "";
+          return $q(function(resolve, reject){
+            $http.get(`../data/projects.json`)
+              .success(function(returnObject){
+                Object.keys(returnObject).forEach((key) => {
+                  Object.keys(returnObject[key]).forEach((subkey) => {
+                    if (subkey == projectTitle) {
+                      returnObject[key][subkey].projectType = key;
+                      returnObject[key][subkey].key = subkey;
+                      projectToSend = returnObject[key][subkey];
+                    }
+                  })
+                })
+                resolve(projectToSend);
+              })
+              .error(function(error){
+                  reject(error);
+              })
+          });
+      };
+  return {getAllProjectDetails, getSpecificProjectDetails};
 });

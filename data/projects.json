@@ -2,7 +2,7 @@
   "frontend": {
     "capstone": {
       "title": "Boogie And Brush",
-      "thumbnail": "",
+      "thumbnail": "./img/placeholder.jpg",
       "brief": "",
       "url": "https://boogie-and-brush.firebaseapp.com",
       "github": "",

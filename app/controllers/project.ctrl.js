@@ -1,3 +1,8 @@
-app.controller('projectCtrl', function ($scope) {
-  console.log("hey")
+app.controller('projectCtrl', function ($scope, $routeParams, projectFactory) {
+  $scope.projectToDisplay = "";
+
+  projectFactory.getSpecificProjectDetails($routeParams.projectName).then((project) => {
+    $scope.projectToDisplay = project;
+  })
+
 })
