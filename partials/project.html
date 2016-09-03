@@ -1,23 +1,23 @@
 <div class="row">
   <div class="col s2">
-    <h5>LOREM</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
+    <h5>{{projectToDisplay.title}}</h5>
+    <p>{{projectToDisplay.description}}</p>
   </div>
 
   <div class="col s9 offset-s1">
     <iframe class="smaller-frame"
-      width="538"
-      height="712"
+      width="{{projectToDisplay.iframeDimensions.width}}"
+      height="{{projectToDisplay.iframeDimensions.height}}"
       frameborder="0"
       scrolling="no"
       marginheight="0"
       marginwidth="0"
-      src="https://boogie-and-brush.firebaseapp.com/#/splash">
+      ng-src="{{projectToDisplay.url}}">
     </iframe>
   </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <div class="col s2">
     <h5>LOREM</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel libero a lectus imperdiet vestibulum. Nullam lacinia risus sed ligula mollis vehicula. Proin sed turpis ac nunc blandit iaculis sit amet eu nisi. Praesent cursus velit a gravida gravida. Donec vulputate malesuada est ultricies condimentum. Integer non diam nulla. Vivamus eget fringilla leo.</p>
@@ -34,4 +34,4 @@
       src="https://robot-battledome.firebaseapp.com">
     </iframe>
   </div>
-</div>
+</div> -->
