@@ -7,70 +7,96 @@
       "url": "https://boogie-and-brush.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      }
     },
     "battledome": {
       "title": "Robot Battledome",
-      "thumbnail": "",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
     },
-    "battledome": {
-      "title": "Robot Battledome",
-      "thumbnail": "",
+    "movieHistory": {
+      "title": "Movie History",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
     },
-    "battledome": {
-      "title": "Robot Battledome",
-      "thumbnail": "",
+    "chatty": {
+      "title": "Chatty",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
-    },
-    "battledome": {
-      "title": "Robot Battledome",
-      "thumbnail": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    }
+  },
+  "backend" : {
+    "gif-goldblock": {
+      "title": "Gif-Goldblock",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
     },
-    "battledome": {
-      "title": "Robot Battledome",
-      "thumbnail": "",
+    "backend2": {
+      "title": "Backend2",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
     },
-    "battledome": {
-      "title": "Robot Battledome",
-      "thumbnail": "",
+    "backend3": {
+      "title": "Backend 3",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
     },
-    "battledome": {
-      "title": "Robot Battledome",
-      "thumbnail": "",
+    "backend4": {
+      "title": "Backend 4",
+      "thumbnail": "./img/projects/battledome.jpg",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
       "description": "",
-      "iframeDimensions": [],
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
     }
   }
 }

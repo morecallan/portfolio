@@ -9,9 +9,9 @@ app.config(function($routeProvider) {
             templateUrl: "partials/splash.html",
             controller:  "splashCtrl"
         })
-        .when("/project/:projectName", {
-            templateUrl: "partials/project.html",
-            controller:  "projectCtrl"
-        })
+        // .when("/project/:projectName", {
+        //     templateUrl: "partials/project.html",
+        //     controller:  "projectCtrl"
+        // })
         .otherwise("/splash");
 });

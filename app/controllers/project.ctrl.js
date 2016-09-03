@@ -1,3 +1,3 @@
-app.controller('splashCtrl', function ($scope) {
+app.controller('projectCtrl', function ($scope) {
   console.log("hey")
 })
