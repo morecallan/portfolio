@@ -1,0 +1,50 @@
+@import "../components/colors";
+
+
+nav {
+  margin: 10px 0 !important;
+  height: 120px !important;
+  background-color: $navy-light-very;
+
+  .nav-img-main {
+    max-width: 120px;
+    max-height: 120px;
+    opacity: 0.8;
+    overflow: hidden;
+    float: left;
+    margin: 0 3%;
+
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .sub-nav {
+    float: right;
+    display: inline-block;
+    width: 84%;
+    height: 58px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px 0 0 5px;
+
+    h3 {
+      margin: 0;
+      letter-spacing: 1em;
+      padding-bottom: 10%;
+      color: $navy;
+    }
+
+    li {
+      display: inline-block;
+      list-style: none;
+    }
+  }
+
+  .lower {
+    background-color: rgba(0, 0, 0, .2);;
+  }
+}

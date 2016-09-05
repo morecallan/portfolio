@@ -1,0 +1,102 @@
+{
+  "frontend": {
+    "capstone": {
+      "title": "Boogie And Brush",
+      "thumbnail": "./img/placeholder.jpg",
+      "brief": "",
+      "url": "https://boogie-and-brush.firebaseapp.com",
+      "github": "",
+      "description": "boogie... and brush",
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      }
+    },
+    "battledome": {
+      "title": "Robot Battledome",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "https://github.com/morecallan/modern-js-quiz-morecallan",
+      "description": "Originally created as a ‘Mastery Exercise’ for the Nashville Software School ‘Modern Javascript Developer’ Milestone, the Robot Battledome took on a life of it’s own.\nAdmittedly, I started with the UX (don’t tell my instructor). I wanted the player creation to be part of the real gameplay and for there to be a few laughs along the way.\n Under the hood, this project employs Browserify, jQuery, Prototypal Inheritance (born out of JSON files), and many more fun technologies.\nGo ahead. See what the Battledome holds for you…",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "movieHistory": {
+      "title": "Movie History",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "chatty": {
+      "title": "Chatty",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    }
+  },
+  "backend" : {
+    "gif-goldblock": {
+      "title": "Gif-Goldblock",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "backend2": {
+      "title": "Backend2",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "backend3": {
+      "title": "Backend 3",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "backend4": {
+      "title": "Backend 4",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<div class="row project-container">
+  <div class="col s3">
+    <div class="info-column">
+      <h5>{{projectToDisplay.title}}</h5>
+      <p>{{projectToDisplay.description}}</p>
+      <a ng-href={{projectToDisplay.github}}><img class="boxshadow-png" src="./img/resume-icons/github.svg"/></a></li>
+    </div>
+  </div>
+
+  <div class="col s9 project">
+    <div class="iframe-container" style="width: {{projectToDisplay.iframeDimensions.width*.75}}px;">    
+      <iframe class="smaller-frame"
+        width="{{projectToDisplay.iframeDimensions.width}}"
+        height="{{projectToDisplay.iframeDimensions.height}}"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        ng-src="{{projectToDisplay.url}}">
+      </iframe>
+    </div>
+  </div>
+</div>
