@@ -8,8 +8,10 @@
   </div>
 
   <div class="col s9 project">
-    <div class="iframe-container" style="width: {{projectToDisplay.iframeDimensions.width*.75}}px;">    
+    <div class="iframe-container" style="width: {{projectToDisplay.iframeDimensions.width*.75}}px;">
       <iframe class="smaller-frame"
+        ng-show="loaded"
+        onLoad="uploadDone()"
         width="{{projectToDisplay.iframeDimensions.width}}"
         height="{{projectToDisplay.iframeDimensions.height}}"
         frameborder="0"

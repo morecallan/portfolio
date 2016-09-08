@@ -15,3 +15,12 @@ body {
   background: url(../img/desk3.jpg) center center fixed;
   background-size: cover;
 }
+
+nav {
+  position: sticky !important;
+  z-index: 9999 !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}

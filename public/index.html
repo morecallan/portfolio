@@ -12,7 +12,52 @@
   </head>
   <body ng-app="Portfolio" ng-cloak>
     <div ng-include="'./partials/nav.html'"></div>
+    <!-- LOADING SPINNER -->
+      <div id="loaderContainer" loader>
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spincner-blue">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
 
+            <div class="spinner-layer spinner-red">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- END OF LOADING SPINNER-->
+      
     <div ng-view></div>
 
 
@@ -32,6 +77,7 @@
     <script type="text/javascript" src="app/app.js"></script>
     <!-- FACTORIES -->
     <script type="text/javascript" src="app/factories/projects.factory.js"></script>
+    <script type="text/javascript" src="app/factories/interceptor.factory.js"></script>
 
     <!-- DIRECTIVES -->
     <script type="text/javascript" src="app/controllers/splash.ctrl.js"></script>
