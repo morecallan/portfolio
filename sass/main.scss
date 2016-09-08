@@ -11,5 +11,6 @@
 @import "components/colors";
 
 body {
-  background-color: $taupe-light;
+  background: url(../img/desk3.jpg) center center fixed;
+  background-size: cover;
 }

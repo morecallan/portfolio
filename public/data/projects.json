@@ -2,7 +2,7 @@
   "frontend": {
     "capstone": {
       "title": "Boogie And Brush",
-      "thumbnail": "./img/placeholder.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fplaceholder.jpg?alt=media&token=78f5227a-c293-4870-a02b-b82465d8f7e1",
       "brief": "",
       "url": "https://boogie-and-brush.firebaseapp.com",
       "github": "",
@@ -14,7 +14,7 @@
     },
     "battledome": {
       "title": "Robot Battledome",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "https://github.com/morecallan/modern-js-quiz-morecallan",
@@ -26,11 +26,11 @@
     },
     "movieHistory": {
       "title": "Movie History",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fmoviehistory.jpg?alt=media&token=9e96580d-35e7-4022-9e59-397e1c854e1c",
       "brief": "",
-      "url": "https://robot-battledome.firebaseapp.com",
-      "github": "",
-      "description": "",
+      "url": "https://movie-database-1335.firebaseapp.com",
+      "github": "https://github.com/morecallan/movie-database-or-something-cooler",
+      "description": "Want to keep track of all the movies you don't have time to watch while you are attending NSS? Look no further.",
       "iframeDimensions": {
         "width": 1200,
         "height": 650
@@ -38,7 +38,7 @@
     },
     "chatty": {
       "title": "Chatty",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
@@ -52,7 +52,7 @@
   "backend" : {
     "gif-goldblock": {
       "title": "Gif-Goldblock",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
@@ -64,7 +64,7 @@
     },
     "backend2": {
       "title": "Backend2",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
@@ -76,7 +76,7 @@
     },
     "backend3": {
       "title": "Backend 3",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",
@@ -88,7 +88,7 @@
     },
     "backend4": {
       "title": "Backend 4",
-      "thumbnail": "./img/projects/battledome.jpg",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
       "brief": "",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "",

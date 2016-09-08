@@ -7,7 +7,7 @@
   text-align: center;
   background-color: #5F3F54;
   color: white;
-  opacity: .75; }
+  opacity: .85; }
   .center-info h5 {
     letter-spacing: .5em; }
   .center-info i {
@@ -172,4 +172,5 @@ nav {
   -webkit-filter: drop-shadow(1px 1px 1px rgba(68, 72, 77, 0.5)); }
 
 body {
-  background-color: #DDDCDB; }
+  background: url(../img/desk3.jpg) center center fixed;
+  background-size: cover; }
