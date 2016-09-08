@@ -1,0 +1,27 @@
+/* slide in from the bottom */
+@keyframes slideOutUp {
+    to      { transform: translateY(-100%); }
+}
+
+/* entering animations --------------------------------------- */
+
+/* slide in from the right */
+@keyframes slideInDown {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(-20%); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+
+.ng-enter {
+   animation: slideInDown 0.5s both ease-in; z-index: 8888;
+}
+
+.ng-leave {
+  animation: slideOutUp 0.5s both ease-in; z-index: 8887;
+}
