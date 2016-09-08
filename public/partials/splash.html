@@ -3,7 +3,7 @@
   <div class="col s4">
     <div class="main-content">
       <ul class='circle-container-right'>
-        <li ng-repeat="project in frontendProjects" ng-click="displayProjectDetails(project)">
+        <li ng-repeat="project in frontendProjects" ng-mouseover="displayProjectDetails(project)">
           <img ng-src={{project.thumbnail}}/>
         </li>
       </div>
@@ -29,7 +29,7 @@
       <div class="col s4">
         <div class="main-content">
           <ul class='circle-container-left'>
-            <li ng-repeat="project in backendProjects" ng-click="displayProjectDetails(project)">
+            <li ng-repeat="project in backendProjects" ng-mouseover="displayProjectDetails(project)">
               <img ng-src={{project.thumbnail}}/>
             </li>
           </div>

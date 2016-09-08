@@ -7,16 +7,16 @@
 
   @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 8em, $rotation: 270);
   margin: 5em auto 0;
-  border: solid 4px $navy-light;
+  border: solid 4px black;
 
   img {
     display: block;
     max-width: 100%;
     border-radius: 50%;
     filter: grayscale(100%);
-    border: solid 4px $navy-light;
+    border: solid 4px black;
     transition: .15s;
-    box-shadow: 5px 5px 5px $charcoal-light;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
 
 
     &:hover,
@@ -32,16 +32,16 @@
 
   @include on-circle($item-count: 4, $circle-size: 25em, $item-size: 8em, $rotation: 90);
   margin: 5em auto 0;
-  border: solid 4px $navy-light;
+  border: solid 4px black;
 
   img {
     display: block;
     max-width: 100%;
     border-radius: 50%;
     filter: grayscale(100%);
-    border: solid 4px $navy-light;
+    border: solid 4px black;
     transition: .15s;
-    box-shadow: 5px 5px 5px $charcoal-light;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
 
     &:hover,
     &:active {

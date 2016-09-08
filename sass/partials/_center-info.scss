@@ -1,5 +1,6 @@
 @import "../components/colors";
 
+
 .center-info {
   margin: 5% auto;
   padding: 15px;
@@ -10,6 +11,8 @@
   background-color: $purple;
   color: white;
   opacity: .85;
+  z-index: 100;
+
 
   h5 {
     letter-spacing: .5em;
