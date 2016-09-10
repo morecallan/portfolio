@@ -11,7 +11,7 @@
     <div class="iframe-container" style="width: {{projectToDisplay.iframeDimensions.width*.75}}px;">
       <iframe class="smaller-frame"
         ng-show="loaded"
-        onLoad="uploadDone()"
+        ng-onload="uploadDone()"
         width="{{projectToDisplay.iframeDimensions.width}}"
         height="{{projectToDisplay.iframeDimensions.height}}"
         frameborder="0"

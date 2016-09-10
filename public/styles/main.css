@@ -181,7 +181,8 @@ nav {
   height: 120px !important;
   background-color: #CBD8E1; }
   nav .nav-img-main {
-    max-width: 120px;
+    max-width: 12%;
+    min-height: 120px;
     max-height: 120px;
     opacity: 0.8;
     overflow: hidden;
@@ -193,6 +194,7 @@ nav {
     float: right;
     display: inline-block;
     width: 84%;
+    max-width: 82%;
     height: 58px;
     margin: 0;
     overflow: hidden;
@@ -200,8 +202,9 @@ nav {
     padding: 10px 0;
     border-radius: 5px 0 0 5px; }
     nav .sub-nav h3 {
+      text-align: center;
       margin: 0;
-      letter-spacing: 1em;
+      letter-spacing: .8em;
       padding-bottom: 10%;
       color: #2B3441; }
     nav .sub-nav li {
@@ -218,7 +221,9 @@ nav {
 
 body {
   background: url(../img/desk3.jpg) center center fixed;
-  background-size: cover; }
+  background-size: cover;
+  max-height: 100vh;
+  overflow: hidden; }
 
 nav {
   position: sticky !important;

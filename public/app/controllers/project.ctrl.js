@@ -5,8 +5,9 @@ app.controller('projectCtrl', function ($scope, $sce, $timeout, $window, $rootSc
   $timeout(()=> window.scrollTo(0,-100), 300);
   $timeout(()=> window.scrollTo(0,-100), 600);
 
-  $window.uploadDone = function(){
+  $scope.uploadDone = function(){
     $scope.loaded = true;
+    $scope.$apply();
   }
 
   projectFactory.getSpecificProjectDetails($routeParams.projectName).then((project) => {
