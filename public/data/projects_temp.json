@@ -1,0 +1,102 @@
+{
+  "frontend": {
+    "capstone": {
+      "title": "Boogie And Brush",
+      "thumbnail": "./img/projects/4c.png",
+      "brief": "",
+      "url": "https://boogie-and-brush.firebaseapp.com",
+      "github": "",
+      "description": "Parents must create an account for access to the app. They are able to add up to 4 children associated with their account. These accounts can be deleted or added at any point. Child users log in each time they intend to brush their teeth. They can either view their previous brushing records or create a new brushing record. If child user opts to create a new brushing record, they are able to select 4 clips from a set of 'mystery songs' to compile one 2-minute song. Once they have 4 selections, they are able to play their 'custom' song.While the child user's 'custom' song is playing, they receive step-by-step brushing instructions from an animated slideshow. Once the 2-minute animation and song duo is completed. The child receives a 'sticker' for brushing. Brushing is limited to once per morning and once per evening.",
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      }
+    },
+    "battledome": {
+      "title": "Robot Battledome",
+      "thumbnail": "./img/projects/battledome.jpg",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "https://github.com/morecallan/modern-js-quiz-morecallan",
+      "description": "Originally created as a ‘Mastery Exercise’ for the Nashville Software School ‘Modern Javascript Developer’ Milestone, the Robot Battledome took on a life of it’s own.\nAdmittedly, I started with the UX (don’t tell my instructor). I wanted the player creation to be part of the real gameplay and for there to be a few laughs along the way.\n Under the hood, this project employs Browserify, jQuery, Prototypal Inheritance (born out of JSON files), and many more fun technologies.\nGo ahead. See what the Battledome holds for you…",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "movieHistory": {
+      "title": "Movie History",
+      "thumbnail": "./img/projects/movie-dog.jpg",
+      "brief": "",
+      "url": "https://movie-database-1335.firebaseapp.com",
+      "github": "https://github.com/morecallan/movie-database-or-something-cooler",
+      "description": "Want to keep track of all the movies you don't have time to watch while you are attending NSS? Look no further.",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "chatty": {
+      "title": "Chatty",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    }
+  },
+  "backend" : {
+    "gif-goldblock": {
+      "title": "Gif-Goldblock",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "backend2": {
+      "title": "Backend2",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "backend3": {
+      "title": "Backend 3",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    },
+    "backend4": {
+      "title": "Backend 4",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=984d0fb5-b532-4a76-9b3a-93bd7a919fe2",
+      "brief": "",
+      "url": "https://robot-battledome.firebaseapp.com",
+      "github": "",
+      "description": "",
+      "iframeDimensions": {
+        "width": 1200,
+        "height": 650
+      }
+    }
+  }
+}

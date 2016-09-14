@@ -40,7 +40,7 @@ img {
 
 .ng-leave {
   animation: slideOutUp 0.5s both ease-in !important;
-  z-index: 2 !important; }
+  z-index: 100 !important; }
 
 .center-info {
   margin: 5% auto;
@@ -161,6 +161,19 @@ img {
   padding: 0;
   min-height: 800px; }
 
+.mock-modal {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.5), 0 12.5px px 0 rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  width: 40%;
+  min-height: 40%;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background-color: #8C7E78;
+  color: #3A373E;
+  overflow: hidden;
+  text-align: center; }
+
 #nav .icon {
   padding: 0 7%; }
 
@@ -226,8 +239,13 @@ body {
   overflow: hidden; }
 
 nav {
-  position: sticky !important;
+  z-index: 8 !important; }
+
+.sub-nav {
   z-index: 9999 !important; }
+
+.ng-viewer {
+  z-index: 800 !important; }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important; }
