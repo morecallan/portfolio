@@ -12,18 +12,65 @@
   </head>
   <body ng-app="Portfolio" ng-cloak>
     <div ng-include="'./partials/nav.html'"></div>
+    <!-- LOADING SPINNER -->
+      <div id="loaderContainer" loader>
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spincner-blue">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
 
-    <div ng-view></div>
+            <div class="spinner-layer spinner-red">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- END OF LOADING SPINNER-->
+
+    <div class="ng-viewer" ng-view></div>
 
 
     <!-- Materialize: jQuery (necessary for Materialize's JavaScript plugins) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
     <!-- Angular: Latest compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+    <!-- Angular on-load (for Iframe) -->
+    <script src="lib/node_modules/ng-onload/release/ng-onload.min.js"></script>
     <!-- Angular Route: Latest compiled and minified JavaScript -->
     <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
     <!-- Angular Animations -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.11/angular-animate.js"></script>
+    <script src="lib/node_modules/angular-animate/angular-animate.min.js"></script>
     <!-- Firebase: Latest compiled and minified JavaScript -->
     <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
     <!-- Materialize: Latest compiled and minified JavaScript -->
@@ -32,6 +79,7 @@
     <script type="text/javascript" src="app/app.js"></script>
     <!-- FACTORIES -->
     <script type="text/javascript" src="app/factories/projects.factory.js"></script>
+    <script type="text/javascript" src="app/factories/interceptor.factory.js"></script>
 
     <!-- DIRECTIVES -->
     <script type="text/javascript" src="app/controllers/splash.ctrl.js"></script>

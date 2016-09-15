@@ -1,8 +1,10 @@
+@import "animations";
 @import "partials/center-info";
 @import "partials/circle-containers";
 @import "partials/iframe";
 @import "partials/info-column";
 @import "partials/main-content";
+@import "partials/mock-modal";
 @import "partials/nav-icons";
 @import "partials/project-container";
 @import "partials/subnav";
@@ -11,5 +13,24 @@
 @import "components/colors";
 
 body {
-  background-color: $taupe-light;
+  background: url(../img/desk3.jpg) center center fixed;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  z-index: 8 !important;
+}
+
+.sub-nav {
+  z-index: 9999 !important;
+}
+
+.ng-viewer {
+  z-index: 800 !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }

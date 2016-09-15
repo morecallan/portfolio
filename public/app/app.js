@@ -1,6 +1,6 @@
 "use strict";
 
-var app = angular.module("Portfolio", ["ngRoute"])
+var app = angular.module("Portfolio", ["ngRoute", "ngAnimate", "ngOnload"])
 
 
 app.config(function($routeProvider) {

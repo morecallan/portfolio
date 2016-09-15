@@ -1,0 +1,53 @@
+/* slide in from the bottom */
+// @keyframes slideOutUp {
+//   from    { transform:translateY(100%); }
+//   to      { transform: translateY(0); }
+// }
+
+
+
+/* entering animations --------------------------------------- */
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+ }
+
+
+/* slide in from the right */
+@keyframes slideInDown {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideOutUp {
+    from    { transform:translateY(0); }
+    to      { transform: translateY(-100%); }
+}
+
+@keyframes fadein {
+  from   { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+
+.ng-enter {
+   animation: slideInDown 0.5s both ease-in !important; z-index: 8888;
+}
+
+iframe {
+   animation: fadein 0.9s both ease-in !important; z-index: 9990;
+}
+
+img {
+  animation: fadein 0.9s both ease-in !important; z-index: 9990;
+}
+
+.ng-leave {
+  animation: slideOutUp 0.5s both ease-in !important; z-index: 100 !important;
+}
