@@ -1,15 +1,20 @@
 @import "../components/colors";
 
 .mock-modal {
-    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.5), 0 12.5px px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.42), 0 25px 55px 0 rgba(0, 0, 0, 0.40) !important;
     z-index: 9999;
-    width: 40%;
+    width: 30%;
     min-height: 40%;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 25%;
+    left: 35%;
     background-color: $taupe;
     color: $charcoal;
     overflow: hidden;
     text-align: center;
+
+    img {
+      max-width: 90%;
+    }
   }
