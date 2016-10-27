@@ -3,10 +3,11 @@
     "capstone": {
       "title": "Boogie And Brush",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2F4c.png?alt=media&token=e65789f5-ea42-40fc-bc0d-ec2bc2ac030e",
-      "brief": "",
+      "brief": "The need for this app became clear when the following statistic came across my desk: children only brush their teeth 6 times a week. So, I designed a solution that would motivate children to brush for a full 2 minutes by creating their own 2 minute song, displaying a how-to animation for 2 minutes, and then awarding them with a digital sticker for each brushing (all while including parental monitoring).",
+      "technologiesUsed": "AngularJS, Firebase Database and Hosting, Sass, Material Design, MomentJS, Angular Sound Manager, Version Control with Github",
       "url": "https://boogie-and-brush.firebaseapp.com",
       "github": "https://github.com/morecallan/frontend-capstone",
-      "description": "Parents must create an account for access to the app. They are able to add up to 4 children associated with their account. These accounts can be deleted or added at any point. Child users log in each time they intend to brush their teeth. They can either view their previous brushing records or create a new brushing record. If child user opts to create a new brushing record, they are able to select 4 clips from a set of 'mystery songs' to compile one 2-minute song. Once they have 4 selections, they are able to play their 'custom' song.While the child user's 'custom' song is playing, they receive step-by-step brushing instructions from an animated slideshow. Once the 2-minute animation and song duo is completed. The child receives a 'sticker' for brushing. Brushing is limited to once per morning and once per evening.",
+      "description": "Behind the Scenes: .",
       "iframeDimensions": {
         "width": 538,
         "height": 712
@@ -15,10 +16,11 @@
     "battledome": {
       "title": "Robot Battledome",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fbattledome.jpg?alt=media&token=f03dd81a-212c-41fa-b283-99d7e6b80f8f",
-      "brief": "",
+      "brief": "What originally began as a simple 'mastery exercise' for the Modern Javascript Developer milestone, snowballed into a personal favorite project. Users create their robots and battle them to the death. Simple as that.",
+      "technologiesUsed": "jQuery, Prototypal Inheritance, AJAX and JSON, Custom JS Utility Functions, Task Automation, CSS Animations, Version Control with Github",
       "url": "https://robot-battledome.firebaseapp.com",
       "github": "https://github.com/morecallan/modern-js-quiz-morecallan",
-      "description": "Originally created as a ‘Mastery Exercise’ for the Nashville Software School ‘Modern Javascript Developer’ Milestone, the Robot Battledome took on a life of it’s own.\nAdmittedly, I started with the UX (don’t tell my instructor). I wanted the player creation to be part of the real gameplay and for there to be a few laughs along the way.\n Under the hood, this project employs Browserify, jQuery, Prototypal Inheritance (born out of JSON files), and many more fun technologies.\nGo ahead. See what the Battledome holds for you…",
+      "description": "Behind the Scenes: .",
       "iframeDimensions": {
         "width": 1200,
         "height": 650
@@ -27,10 +29,11 @@
     "movieHistory": {
       "title": "Movie History",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fmovie-dog.jpg?alt=media&token=2b589516-c50f-40f1-a1a4-b8eddfa0eb73",
-      "brief": "",
+      "brief": "When you work full-time and studenting part-time, you just don't have time to watch all the movies you want. With this app, you can look up any movie (yes, even Vampire Dog), view details and add it to your watchlist. You can manage your watchlist and rate movies once you do finally get to viewing them.",
+      "technologiesUsed": "AngularJS, Firebase Database and Hosting, Sass, Material Design, OMDB API, Version Control with Github",
       "url": "https://movie-database-1335.firebaseapp.com",
       "github": "https://github.com/morecallan/movie-database-or-something-cooler",
-      "description": "Lorem ipsum dolor sit amet, no eam soleat copiosae accusata. Vel inani praesent accommodare ad, eos virtute invenire atomorum cu, vis ad tota scribentur. Quidam feugiat ex his. Te equidem invenire scriptorem eos. Usu ad perfecto inimicus, ut pro dico graeci, ignota graeci ne vix. Dicant posidonium te est, an mel debet corpora accusamus. Cum ex aperiam iuvaret, has stet numquam et, pro adversarium voluptatibus et. Ut nostrud lobortis tincidunt est, recusabo moderatius dissentiet te quo. Vidit nobis mnesarchum et usu, te explicari cotidieque mel. Quando partiendo nec te.",
+      "description": "Behind the Scenes: .",
       "iframeDimensions": {
         "width": 1200,
         "height": 650
@@ -39,10 +42,11 @@
     "chatty": {
       "title": "Chatty",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fchatty.png?alt=media&token=ea23bc89-6c4c-4aec-8876-c365382c02fd",
-      "brief": "HALP ME",
+      "brief": "The simple assignment description: an AIM chat clone. The Result? an AIM chat clone with some new twists: emojis, attention-grabbing styling for swear words, custom themes and artificial intelligence. With Agile development and some very talented teammates, these bonus features were implemented seamlessly.",
+      "technologiesUsed": "CSS, Bootstrap, jQuery, IIFE and augmentation, AJAX, JSON, Version Control with Github",
       "url": "https://chatty-9eb3f.firebaseapp.com",
       "github": "https://github.com/morecallan/chatty-e3-iwantanap",
-      "description": "Lorem ipsum dolor sit amet, no eam soleat copiosae accusata. Vel inani praesent accommodare ad, eos virtute invenire atomorum cu, vis ad tota scribentur. Quidam feugiat ex his. Te equidem invenire scriptorem eos. Usu ad perfecto inimicus, ut pro dico graeci, ignota graeci ne vix. Dicant posidonium te est, an mel debet corpora accusamus. Cum ex aperiam iuvaret, has stet numquam et, pro adversarium voluptatibus et. Ut nostrud lobortis tincidunt est, recusabo moderatius dissentiet te quo. Vidit nobis mnesarchum et usu, te explicari cotidieque mel. Quando partiendo nec te.",
+      "description": "Behind the scenes: .",
       "iframeDimensions": {
         "width": 1200,
         "height": 650
@@ -54,7 +58,7 @@
       "title": "Gif-Goldblum",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c55d.appspot.com/o/projects%2Fjeff.jpg?alt=media&token=af78b0d5-223c-4e39-8770-5edbf136a37a",
       "brief": "",
-      "url": "http://gif-goldblum.herokuapp.com/#/",
+      "url": "https://gif-goldblum.herokuapp.com/#/",
       "github": "",
       "description": "Lorem ipsum dolor sit amet, no eam soleat copiosae accusata. Vel inani praesent accommodare ad, eos virtute invenire atomorum cu, vis ad tota scribentur. Quidam feugiat ex his. Te equidem invenire scriptorem eos. Usu ad perfecto inimicus, ut pro dico graeci, ignota graeci ne vix. Dicant posidonium te est, an mel debet corpora accusamus. Cum ex aperiam iuvaret, has stet numquam et, pro adversarium voluptatibus et. Ut nostrud lobortis tincidunt est, recusabo moderatius dissentiet te quo. Vidit nobis mnesarchum et usu, te explicari cotidieque mel. Quando partiendo nec te.",
       "iframeDimensions": {
