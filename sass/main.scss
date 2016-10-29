@@ -7,6 +7,7 @@
 @import "partials/mock-modal";
 @import "partials/nav-icons";
 @import "partials/project-container";
+@import "partials/resume-partial";
 @import "partials/subnav";
 @import "partials/text-shadow";
 
@@ -16,7 +17,7 @@ body {
   background: url(../img/desk3.jpg) center center fixed;
   background-size: cover;
   max-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 nav {

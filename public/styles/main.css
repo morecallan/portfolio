@@ -192,6 +192,12 @@ img {
   .project-container .project > .iframe-container {
     margin: 0 auto; }
 
+#resume-partial {
+  z-index: 9999;
+  position: absolute;
+  top: 130px;
+  left: 26%; }
+
 nav {
   margin: 10px 0 !important;
   height: 120px !important;
@@ -239,7 +245,7 @@ body {
   background: url(../img/desk3.jpg) center center fixed;
   background-size: cover;
   max-height: 100vh;
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 nav {
   z-index: 8 !important; }
