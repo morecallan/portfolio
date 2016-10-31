@@ -60,6 +60,11 @@ img {
   z-index: 100; }
   .center-info h5 {
     letter-spacing: .5em; }
+  .center-info .check-it-out {
+    padding-top: 20px;
+    font-size: 18px;
+    letter-spacing: .1em;
+    text-transform: uppercase; }
   .center-info i {
     line-height: .5em;
     padding: 0 !important;
