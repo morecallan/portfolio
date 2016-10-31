@@ -1,7 +1,6 @@
 "use strict";
 
-var app = angular.module("Portfolio", ["ngRoute", "ngAnimate", "ngOnload"])
-
+var app = angular.module("Portfolio", ["ngRoute", "ngOnload"])
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -11,11 +10,11 @@ app.config(function($routeProvider) {
         })
         .when("/project/:projectName", {
             templateUrl: "partials/project.html",
-            controller:  "projectCtrl"
+            controller:  "projectCtrl",
         })
         .when("/technologies", {
             templateUrl: "partials/technologies.html",
-            controller:  "projectCtrl"
+            controller:  "technologiesCtrl"
         })
         .otherwise("/splash");
 });
