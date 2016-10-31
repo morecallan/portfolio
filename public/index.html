@@ -9,6 +9,7 @@
     <!-- Materialize: NECESSARY FOR ICONS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css" media="screen">
+    <link rel='shortcut icon' type='image/x-icon' href='img/personal-img/placeholder.png' />
   </head>
   <body ng-app="Portfolio" ng-cloak>
     <div ng-include="'./partials/nav.html'"></div>
@@ -58,8 +59,9 @@
       </div>
       <!-- END OF LOADING SPINNER-->
 
-    <div class="ng-viewer" ng-view></div>
-
+    <div ng-if="resumeButtonClicked" ng-include="'partials/resume.html'"></div>
+    <div ng-if="aboutButtonClicked" ng-include="'partials/contact.html'"></div>
+    <div ng-click="closeAllModals()" class="ng-viewer" ng-view></div>
 
     <!-- Materialize: jQuery (necessary for Materialize's JavaScript plugins) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>

@@ -13,5 +13,9 @@ app.config(function($routeProvider) {
             templateUrl: "partials/project.html",
             controller:  "projectCtrl"
         })
+        .when("/technologies", {
+            templateUrl: "partials/technologies.html",
+            controller:  "projectCtrl"
+        })
         .otherwise("/splash");
 });

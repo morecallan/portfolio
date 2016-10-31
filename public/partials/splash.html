@@ -3,8 +3,8 @@
   <div class="col s4">
     <div class="main-content">
       <ul class='circle-container-right'>
-        <li ng-repeat="project in frontendProjects" ng-mouseover="displayProjectDetails(project)">
-          <img ng-src={{project.thumbnail}}/>
+        <li ng-repeat="project in frontendProjects" ng-click="displayProjectDetails(project)">
+          <img ng-src={{project.thumbnail}} ng-class="[{'active-view': project.active}]"/>
         </li>
       </div>
     </ul>
@@ -13,13 +13,18 @@
       <div class="col s4">
         <div class="projectInfo center-info" ng-if="projectSelected">
           <h5>{{selectedProject.title.toUpperCase()}}</h5>
-          <p>{{selectedProject.description}}</p>
-          <a ng-href="#/project/{{selectedProject.key}}"><i class="material-icons medium textshadow">keyboard_arrow_down</i></a>
+          <p>{{selectedProject.brief}}</p>
+          <p>Technologies used: {{selectedProject.technologiesUsed}}</p>
+          <div ng-show="selectedProject.available">
+            <h5>Check It Out</h5>
+            <a ng-href="#/project/{{selectedProject.key}}"><i class="material-icons medium textshadow">keyboard_arrow_down</i></a>
+          </div>
         </div>
 
         <div class="callanInfo center-info" ng-if="!projectSelected">
           <h5>ABOUT CALLAN</h5>
-          <p><strong>In past lives</strong> I was a marketer, a writer, a project manager, and a <strong>tooth fairy</strong> (not a joke). I always believed the things I loved (<em>numbers, creativity, building things, solving mysteries, staring at a screen for hours </em>{<em>sometimes cursing</em>}) couldn't be combined into one tiny job. But then I worked for a start-up website. Two seats down from the empty server desk. I got into the habit of rolling on down there and just peeking at the source code.</p>
+          <p><strong>In past lives</strong> I was a marketer, a writer, a project manager, and a <strong>tooth fairy</strong> (not a joke). I always believed the things I loved (<em>numbers, creativity, building things, solving mysteries, staring at a screen for hours </em>{<em>sometimes cursing</em>}) couldn't be combined into one tiny job. But then I found it. Software development. I was introduced into the world gradually by the development team at a start-up I worked for.</p>
+          <p><strong>Once I got my hands dirty,</strong> I couldn't stop. I threw myself heart-and-soul into a Software Development Bootcamp, learning technologies, creating projects, developing solutions, leading teams and burning the candle at both ends to get the most I possibly could out of the endless resources provided.</p>
           <p><strong>In the wild</strong> I'm a dog person with a 5th grade sense of humor.</p>
         </div>
       </div>
@@ -29,35 +34,11 @@
       <div class="col s4">
         <div class="main-content">
           <ul class='circle-container-left'>
-            <li ng-repeat="project in backendProjects" ng-mouseover="displayProjectDetails(project)">
-              <img ng-src={{project.thumbnail}}/>
+            <li ng-repeat="project in backendProjects" ng-click="displayProjectDetails(project)">
+              <img ng-src={{project.thumbnail}}  ng-class="[{'active-view': project.active}]"/>
             </li>
           </div>
         </ul>
       </div>
-
-</div>
-
-
-<div class="mock-modal z-depth-4" ng-click="closeModal()" ng-show="aboutButtonClicked">
-    <h4>Want even <strong>more</strong> Callan?</h4>
-    <div class="container">
-      <div class="row">
-        <div class="col s3">
-          <img class="boxshadow-png" src="./img/resume-icons/phone.png"/>
-        </div>
-        <div class="col s8 offset-s1">
-          <h5>804.543.5474</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s3">
-          <img class="boxshadow-png" src="./img/resume-icons/email.png"/>
-        </div>
-        <div class="col s8 offset-s1">
-          <a href="mailto:CallanLMorrison@gmail.com?Subject=Greetings!">CallanLMorrison@gmail.com</a>
-        </div>
-      </div>
-    </div>
 
 </div>

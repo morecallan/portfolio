@@ -1,4 +1,5 @@
 @import "animations";
+@import "partials/about-partial";
 @import "partials/center-info";
 @import "partials/circle-containers";
 @import "partials/iframe";
@@ -7,7 +8,9 @@
 @import "partials/mock-modal";
 @import "partials/nav-icons";
 @import "partials/project-container";
+@import "partials/resume-partial";
 @import "partials/subnav";
+@import "partials/technologies-partial";
 @import "partials/text-shadow";
 
 @import "components/colors";
@@ -16,7 +19,11 @@ body {
   background: url(../img/desk3.jpg) center center fixed;
   background-size: cover;
   max-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.active-view {
+  filter: grayscale(0) !important;
 }
 
 nav {
