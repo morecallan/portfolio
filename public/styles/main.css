@@ -42,6 +42,11 @@ img {
   animation: slideOutUp 0.5s both ease-in !important;
   z-index: 100 !important; }
 
+#about-partial {
+  background: url(../img/crumbledPaper.jpg) center center fixed;
+  background-size: cover;
+  opacity: 0.9%; }
+
 .center-info {
   margin: 5% auto;
   padding: 15px;
@@ -165,17 +170,20 @@ img {
   border-radius: 5px;
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.42), 0 25px 55px 0 rgba(0, 0, 0, 0.4) !important;
   z-index: 9999;
-  width: 30%;
+  width: 36%;
   min-height: 40%;
   position: absolute;
   top: 25%;
-  left: 35%;
+  left: 32%;
   background-color: #8C7E78;
   color: #3A373E;
   overflow: hidden;
   text-align: center; }
   .mock-modal img {
     max-width: 90%; }
+  .mock-modal a {
+    color: #3A373E;
+    font-size: 20px; }
 
 #nav .icon {
   padding: 0 7%; }
@@ -235,6 +243,13 @@ nav {
   nav .lower {
     background-color: rgba(0, 0, 0, 0.2); }
 
+#technologies-partial {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #5F3F54;
+  color: white;
+  opacity: .85; }
+
 .textshadow {
   text-shadow: 2px 2px 2px black; }
 
@@ -246,6 +261,9 @@ body {
   background-size: cover;
   max-height: 100vh;
   overflow-x: hidden; }
+
+.active-view {
+  filter: grayscale(0) !important; }
 
 nav {
   z-index: 8 !important; }

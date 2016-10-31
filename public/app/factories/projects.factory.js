@@ -7,7 +7,7 @@ app.factory('projectFactory', function ($q, $http) {
         let projects = [];
 
         return $q(function(resolve, reject){
-          $http.get(`../data/projects_temp.json`)
+          $http.get(`../data/projects.json`)
             .success(function(returnObject){
               Object.keys(returnObject).forEach((key) => {
                 Object.keys(returnObject[key]).forEach((subkey) => {
@@ -28,7 +28,7 @@ app.factory('projectFactory', function ($q, $http) {
       const getSpecificProjectDetails = (projectTitle) => {
         let projectToSend = "";
           return $q(function(resolve, reject){
-            $http.get(`../data/projects_temp.json`)
+            $http.get(`../data/projects.json`)
               .success(function(returnObject){
                 Object.keys(returnObject).forEach((key) => {
                   Object.keys(returnObject[key]).forEach((subkey) => {

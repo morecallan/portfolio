@@ -3,8 +3,8 @@
   <div class="col s4">
     <div class="main-content">
       <ul class='circle-container-right'>
-        <li ng-repeat="project in frontendProjects" ng-mouseover="displayProjectDetails(project)">
-          <img ng-src={{project.thumbnail}}/>
+        <li ng-repeat="project in frontendProjects" ng-click="displayProjectDetails(project)">
+          <img ng-src={{project.thumbnail}} ng-class="[{'active-view': project.active}]"/>
         </li>
       </div>
     </ul>
@@ -34,35 +34,11 @@
       <div class="col s4">
         <div class="main-content">
           <ul class='circle-container-left'>
-            <li ng-repeat="project in backendProjects" ng-mouseover="displayProjectDetails(project)">
-              <img ng-src={{project.thumbnail}}/>
+            <li ng-repeat="project in backendProjects" ng-click="displayProjectDetails(project)">
+              <img ng-src={{project.thumbnail}}  ng-class="[{'active-view': project.active}]"/>
             </li>
           </div>
         </ul>
       </div>
-
-</div>
-
-
-<div class="mock-modal z-depth-4" ng-click="closeModal()" ng-show="aboutButtonClicked">
-    <h4>Want even <strong>more</strong> Callan?</h4>
-    <div class="container">
-      <div class="row">
-        <div class="col s3">
-          <img class="boxshadow-png" src="./img/resume-icons/phone.png"/>
-        </div>
-        <div class="col s8 offset-s1">
-          <h5>804.543.5474</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s3">
-          <img class="boxshadow-png" src="./img/resume-icons/email.png"/>
-        </div>
-        <div class="col s8 offset-s1">
-          <a href="mailto:CallanLMorrison@gmail.com?Subject=Greetings!">CallanLMorrison@gmail.com</a>
-        </div>
-      </div>
-    </div>
 
 </div>

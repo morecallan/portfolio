@@ -1,4 +1,5 @@
 @import "animations";
+@import "partials/about-partial";
 @import "partials/center-info";
 @import "partials/circle-containers";
 @import "partials/iframe";
@@ -9,6 +10,7 @@
 @import "partials/project-container";
 @import "partials/resume-partial";
 @import "partials/subnav";
+@import "partials/technologies-partial";
 @import "partials/text-shadow";
 
 @import "components/colors";
@@ -18,6 +20,10 @@ body {
   background-size: cover;
   max-height: 100vh;
   overflow-x: hidden;
+}
+
+.active-view {
+  filter: grayscale(0) !important;
 }
 
 nav {

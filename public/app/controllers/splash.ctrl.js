@@ -5,10 +5,21 @@ app.controller('splashCtrl', function ($scope, $rootScope, projectFactory) {
   $rootScope.projectSelected = false;
   $scope.selectedProject = "";
 
-  $scope.aboutButtonClicked = false;
+  $rootScope.aboutButtonClicked = false;
+  $rootScope.resumeButtonClicked = false;
 
   $rootScope.clickAboutButton = () => {
-    $scope.aboutButtonClicked = !$scope.aboutButtonClicked;
+    $rootScope.aboutButtonClicked = !$rootScope.aboutButtonClicked;
+  }
+
+  $rootScope.clickResumeButton = () => {
+    $rootScope.resumeButtonClicked = !$rootScope.resumeButtonClicked;
+  }
+
+  $rootScope.closeAllModals = () => {
+    console.log("close all the modals!")
+    $rootScope.aboutButtonClicked = false;
+    $rootScope.resumeButtonClicked = false;
   }
 
   $scope.closeModal = () => {
@@ -17,6 +28,7 @@ app.controller('splashCtrl', function ($scope, $rootScope, projectFactory) {
 
   projectFactory.getAllProjectDetails().then((projects)=> {
     projects.forEach(project => {
+      project.active = false;
       if (project.projectType == "frontend") {
         $scope.frontendProjects.push(project)
       }
@@ -28,6 +40,13 @@ app.controller('splashCtrl', function ($scope, $rootScope, projectFactory) {
   })
 
   $scope.displayProjectDetails = (currentSelectedProject) => {
+    $scope.frontendProjects.forEach(project => {
+      project.active = false
+    });
+    $scope.backendProjects.forEach(project => {
+      project.active = false
+    });
+    currentSelectedProject.active = true;
     $scope.selectedProject = currentSelectedProject;
     $rootScope.projectSelected = true;
   }
