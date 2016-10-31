@@ -6,6 +6,11 @@ nav {
   height: 120px !important;
   background-color: $navy-light-very;
 
+  li a:hover {
+    background-color: transparent !important;
+    cursor: default !important;
+  }
+
   .nav-img-main {
     max-width: 12%;
     min-height: 120px;
@@ -19,6 +24,8 @@ nav {
     img {
       width: 100%;
     }
+
+
   }
 
   .sub-nav {

@@ -210,6 +210,9 @@ nav {
   margin: 10px 0 !important;
   height: 120px !important;
   background-color: #CBD8E1; }
+  nav li a:hover {
+    background-color: transparent !important;
+    cursor: default !important; }
   nav .nav-img-main {
     max-width: 12%;
     min-height: 120px;
@@ -263,7 +266,8 @@ body {
   overflow-x: hidden; }
 
 .ng-viewer {
-  max-height: 70vh !important; }
+  max-height: 80vh !important;
+  overflow: hidden; }
 
 .active-view {
   filter: grayscale(0) !important; }
