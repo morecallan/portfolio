@@ -262,6 +262,9 @@ body {
   max-height: 100vh;
   overflow-x: hidden; }
 
+.ng-viewer {
+  max-height: 70vh !important; }
+
 .active-view {
   filter: grayscale(0) !important; }
 
