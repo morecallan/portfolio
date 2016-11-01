@@ -11,8 +11,8 @@ app.factory('technologiesFactory', function ($q, $http) {
             .success(function(returnObject){
               Object.keys(returnObject).forEach((key) => {
                 technologies.push(returnObject[key])
-                            })
-                resolve(projects);
+                })
+                resolve(technologies[0]);
             })
             .error(function(error){
                 reject(error);
