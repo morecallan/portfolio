@@ -1,9 +1,8 @@
 <div class="container" id="technologies-partial">
-  <h1>totally technologies page</h1>
-  <ul>
-    <li ng-repeat="technology in technologies">
-      <img ng-src="{{technology.img}}" />
-      {{technology.name}}
-    </li>
-  </ul>
+  <h4>Technologies & Tools</h4>
+  <div class="technologies-container">
+    <div class="technology-card" ng-repeat="technology in technologies">
+      <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{technology.name}}"><img ng-src="{{technology.img}}" /></a>
+    </div>
+  </div>
 </div>

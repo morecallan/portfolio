@@ -256,7 +256,26 @@ nav {
   text-align: center;
   background-color: #5F3F54;
   color: white;
-  opacity: .85; }
+  opacity: .85;
+  overflow: auto !important; }
+  #technologies-partial h4 {
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: .5em; }
+  #technologies-partial .technologies-container {
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%; }
+  #technologies-partial .technology-card {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 10px;
+    padding: 7px;
+    width: 64px; }
+    #technologies-partial .technology-card img {
+      max-width: 50px; }
 
 .textshadow {
   text-shadow: 2px 2px 2px black; }
