@@ -12,7 +12,8 @@
       "iframeDimensions": {
         "width": 538,
         "height": 712
-      }
+      },
+      "iframeScroll": "no"
     },
     "battledome": {
       "title": "Robot Battledome",
@@ -26,7 +27,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "no"
     },
     "movieHistory": {
       "title": "Movie History",
@@ -40,7 +42,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "no"
     },
     "chatty": {
       "title": "Chatty",
@@ -54,7 +57,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "no"
     }
   },
   "backend" : {
@@ -70,7 +74,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "yes"
     },
     "addressBook": {
       "title": "Address Book",
@@ -84,7 +89,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "no"
     },
     "customConsole": {
       "title": "Student Checkin",
@@ -98,7 +104,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "no"
     },
     "serviceDogSkills": {
       "title": "Service Dog Skill Matcher",
@@ -112,7 +119,8 @@
       "iframeDimensions": {
         "width": 1200,
         "height": 650
-      }
+      },
+      "iframeScroll": "no"
     }
   }
 }

@@ -1,0 +1,219 @@
+{
+  "technologies": [
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Atom.png?raw=true",
+      "name": "Atom",
+      "tags": ["node", "frontend", "tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Sublime.png?raw=true",
+      "name": "Sublime",
+      "tags": ["node", "frontend", "tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/VisualStudioCode.png?raw=true",
+      "name": "Visual Studio Code",
+      "tags": ["C#", "tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/VisualStudio.png?raw=true",
+      "name": "Visual Studio",
+      "tags": ["C#", "tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Slack.png?raw=true",
+      "name": "Slack",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Trello.png?raw=true",
+      "name": "Trello",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Moqups.png?raw=true",
+      "name": "Moqups",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/DrawIo.png?raw=true",
+      "name": "Draw.io",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Illustrator.png?raw=true",
+      "name": "Adobe Illustrator",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Photoshop.png?raw=true",
+      "name": "Adobe Photoshop",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Git.png?raw=true",
+      "name": "Git",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Github.png?raw=true",
+      "name": "Github",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/NPM.png?raw=true",
+      "name": "NPM",
+      "tags": ["tools", "node"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Bower.png?raw=true",
+      "name": "Bower",
+      "tags": ["tools", "frontend"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Gulp.png?raw=true",
+      "name": "Gulp",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/AWS.png?raw=true",
+      "name": "AWS",
+      "tags": ["tools"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/HTML5.png?raw=true",
+      "name": "HTML",
+      "tags": ["frontend", "language"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/CSS.png?raw=true",
+      "name": "CSS",
+      "tags": ["frontend", "language"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Javascript.png?raw=true",
+      "name": "JS, ES6",
+      "tags": ["frontend", "language"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Bootstrap.png?raw=true",
+      "name": "Bootstrap",
+      "tags": ["frontend"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Materialize.png?raw=true",
+      "name": "Materialize",
+      "tags": ["frontend"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Sass.png?raw=true",
+      "name": "Sass",
+      "tags": ["frontend"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Angular.png?raw=true",
+      "name": "AngularJS",
+      "tags": ["frontend"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Browserify.png?raw=true",
+      "name": "Browserify",
+      "tags": ["frontend"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Pug.png?raw=true",
+      "name": "Pug",
+      "tags": ["frontend", "node"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Node.png?raw=true",
+      "name": "NodeJS",
+      "tags": ["node"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Express.png?raw=true",
+      "name": "Express",
+      "tags": ["node"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Mongo.png?raw=true",
+      "name": "Mongo",
+      "tags": ["node", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Mongoose.png?raw=true",
+      "name": "Mongoose",
+      "tags": ["node", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Redis.png?raw=true",
+      "name": "Redis",
+      "tags": ["node", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Postgres.png?raw=true",
+      "name": "Postgres",
+      "tags": ["node", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/SocketIo.png?raw=true",
+      "name": "Socket.io",
+      "tags": ["node"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Passport.png?raw=true",
+      "name": "Passport",
+      "tags": ["node"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Mocha.png?raw=true",
+      "name": "Mocha",
+      "tags": ["node", "testing"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Chai.png?raw=true",
+      "name": "Chai",
+      "tags": ["node", "testing"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/ASPDotNet.png?raw=true",
+      "name": "ASP.NET",
+      "tags": ["C#"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/LINQ.png?raw=true",
+      "name": "LINQ",
+      "tags": ["C#", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Azure.png?raw=true",
+      "name": "Azure",
+      "tags": ["C#"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/SQLite.png?raw=true",
+      "name": "SQLite",
+      "tags": ["C#", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/SQLServer.png?raw=true",
+      "name": "SQLServer",
+      "tags": ["C#", "database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Firebase.png?raw=true",
+      "name": "Firebase",
+      "tags": ["database"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/MOQ.png?raw=true",
+      "name": "MOQ",
+      "tags": ["C#", "database", "testing"]
+    },
+    {
+      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/CSharp.png?raw=true",
+      "name": "C#",
+      "tags": ["C#"]
+    }
+  ]
+}

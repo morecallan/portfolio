@@ -7,4 +7,50 @@
   background-color: $purple;
   color: white;
   opacity: .85;
+  overflow: auto !important;
+
+  h4 {
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: .5em;
+  }
+
+  .technologies-container {
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .technology-card {
+    border-radius: 5px;
+    background-color: rgba(white, 0.7);
+    margin: 10px;
+    padding: 7px;
+    width: 64px;
+
+    img {
+      max-width: 50px;
+    }
+  }
+}
+
+.back-icon {
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: $navy-light-very !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px $charcoal;
+  }
+
+  i {
+    color: $navy-light-very !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px $charcoal;
+  }
 }

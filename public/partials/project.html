@@ -1,6 +1,7 @@
 <div class="row project-container">
   <div class="col s3">
     <div class="info-column">
+      <a class="back-icon" ng-href="/#/splash"><i class="medium material-icons">arrow_back</i></a>
       <h5>{{projectToDisplay.title}}</h5>
       <p>{{projectToDisplay.description}}</p>
       <a ng-href={{projectToDisplay.github}}><img class="boxshadow-png" src="./img/resume-icons/github.svg"/></a></li>
@@ -15,7 +16,7 @@
         width="{{projectToDisplay.iframeDimensions.width}}"
         height="{{projectToDisplay.iframeDimensions.height}}"
         frameborder="0"
-        scrolling="no"
+        scrolling= {{projectToDisplay.iframeScroll}}
         marginheight="0"
         marginwidth="0"
         ng-src="{{projectToDisplay.url}}">

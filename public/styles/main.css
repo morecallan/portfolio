@@ -60,6 +60,11 @@ img {
   z-index: 100; }
   .center-info h5 {
     letter-spacing: .5em; }
+  .center-info .check-it-out {
+    padding-top: 20px;
+    font-size: 18px;
+    letter-spacing: .1em;
+    text-transform: uppercase; }
   .center-info i {
     line-height: .5em;
     padding: 0 !important;
@@ -199,6 +204,14 @@ img {
   margin-top: 30px !important; }
   .project-container .project > .iframe-container {
     margin: 0 auto; }
+  .project-container .back-icon {
+    color: #3A373E !important;
+    margin: 0;
+    padding: 0; }
+    .project-container .back-icon a {
+      color: #3A373E !important;
+      margin: 0;
+      padding: 0; }
 
 #resume-partial {
   z-index: 9999;
@@ -210,6 +223,9 @@ nav {
   margin: 10px 0 !important;
   height: 120px !important;
   background-color: #CBD8E1; }
+  nav li a:hover {
+    background-color: transparent !important;
+    cursor: default !important; }
   nav .nav-img-main {
     max-width: 12%;
     min-height: 120px;
@@ -248,7 +264,40 @@ nav {
   text-align: center;
   background-color: #5F3F54;
   color: white;
-  opacity: .85; }
+  opacity: .85;
+  overflow: auto !important; }
+  #technologies-partial h4 {
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: .5em; }
+  #technologies-partial .technologies-container {
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%; }
+  #technologies-partial .technology-card {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 10px;
+    padding: 7px;
+    width: 64px; }
+    #technologies-partial .technology-card img {
+      max-width: 50px; }
+
+.back-icon {
+  margin: 0;
+  padding: 0; }
+  .back-icon a {
+    color: #CBD8E1 !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px #3A373E; }
+  .back-icon i {
+    color: #CBD8E1 !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px #3A373E; }
 
 .textshadow {
   text-shadow: 2px 2px 2px black; }
@@ -261,6 +310,10 @@ body {
   background-size: cover;
   max-height: 100vh;
   overflow-x: hidden; }
+
+.ng-viewer {
+  max-height: 80vh !important;
+  overflow: hidden; }
 
 .active-view {
   filter: grayscale(0) !important; }

@@ -1,3 +1,15 @@
-<div class="container" id="technologies-partial">
-  <h1>totally technologies page</h1>
+<div class=row>
+
+<div class="col s2 m2 l2">
+  <a class="back-icon" ng-href="/#/splash"><i class="medium material-icons">arrow_back</i></a>
+</div>
+
+<div class="col s8 m8 l8" id="technologies-partial">
+  <h4>Technologies & Tools</h4>
+  <div class="technologies-container">
+    <div class="technology-card" ng-repeat="technology in technologies">
+      <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{technology.name}}"><img ng-src="{{technology.img}}" /></a>
+    </div>
+  </div>
+</div>
 </div>

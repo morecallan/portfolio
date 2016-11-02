@@ -22,6 +22,11 @@ body {
   overflow-x: hidden;
 }
 
+.ng-viewer {
+  max-height: 80vh !important;
+  overflow: hidden;
+}
+
 .active-view {
   filter: grayscale(0) !important;
 }

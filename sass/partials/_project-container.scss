@@ -1,7 +1,21 @@
+@import "../components/colors";
+
 .project-container {
   margin-top: 30px !important;
 
   .project > .iframe-container {
     margin: 0 auto;
+  }
+
+  .back-icon {
+    color: $charcoal !important;
+    margin: 0;
+    padding: 0;
+
+    a {
+      color: $charcoal !important;
+      margin: 0;
+      padding: 0;
+    }
   }
 }
