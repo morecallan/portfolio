@@ -35,3 +35,22 @@
     }
   }
 }
+
+.back-icon {
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: $navy-light-very !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px $charcoal;
+  }
+
+  i {
+    color: $navy-light-very !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px $charcoal;
+  }
+}

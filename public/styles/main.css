@@ -204,6 +204,14 @@ img {
   margin-top: 30px !important; }
   .project-container .project > .iframe-container {
     margin: 0 auto; }
+  .project-container .back-icon {
+    color: #3A373E !important;
+    margin: 0;
+    padding: 0; }
+    .project-container .back-icon a {
+      color: #3A373E !important;
+      margin: 0;
+      padding: 0; }
 
 #resume-partial {
   z-index: 9999;
@@ -276,6 +284,20 @@ nav {
     width: 64px; }
     #technologies-partial .technology-card img {
       max-width: 50px; }
+
+.back-icon {
+  margin: 0;
+  padding: 0; }
+  .back-icon a {
+    color: #CBD8E1 !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px #3A373E; }
+  .back-icon i {
+    color: #CBD8E1 !important;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px #3A373E; }
 
 .textshadow {
   text-shadow: 2px 2px 2px black; }
