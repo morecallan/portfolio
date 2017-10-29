@@ -9,15 +9,16 @@ app.controller('splashCtrl', function ($scope, $rootScope, projectFactory) {
   $rootScope.resumeButtonClicked = false;
 
   $rootScope.clickAboutButton = () => {
+    $rootScope.closeAllModals();
     $rootScope.aboutButtonClicked = !$rootScope.aboutButtonClicked;
   }
 
   $rootScope.clickResumeButton = () => {
+    $rootScope.closeAllModals();
     $rootScope.resumeButtonClicked = !$rootScope.resumeButtonClicked;
   }
 
   $rootScope.closeAllModals = () => {
-    console.log("close all the modals!")
     $rootScope.aboutButtonClicked = false;
     $rootScope.resumeButtonClicked = false;
   }
